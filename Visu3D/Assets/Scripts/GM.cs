@@ -2,7 +2,7 @@ using UnityEngine;
 class GM : MonoBehaviour
 {
     public float sbRotSpeed;
-    bool debug;
+    public bool debug;
     void Start() { }
     void Update()
     {
