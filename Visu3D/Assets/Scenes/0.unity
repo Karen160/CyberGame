@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29406217, g: 0.31623587, b: 0.29454756, a: 1}
+  m_IndirectSpecularColor: {r: 0.29654202, g: 0.32014683, b: 0.2970453, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isZoomFovBased: 0
-  rotSpeed: 5
+  rotSpeed: 2
   scrollSpeed: 5
   minCamFov: 10
   minCamPos: -2.5
