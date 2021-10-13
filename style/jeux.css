@@ -1,0 +1,44 @@
+.main_jeux{
+    text-align: center;
+    padding: 50px;
+}
+
+.main_jeux section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main_jeux h2{
+    font-family: 'Quantify';
+}
+
+.main_jeux p{
+    margin-top: 20px;
+}
+
+.main_jeux form input{
+    border-radius: 20px;
+    width: 100px;
+    padding: 20px;
+    border: 2px solid #00963F;
+    margin: 20px 0;
+}
+
+.main_jeux img{
+    width: 50%;
+}
+
+@media screen and (max-width: 769px){
+    .main_jeux{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main_jeux img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

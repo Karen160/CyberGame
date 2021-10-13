@@ -45,14 +45,33 @@ button:hover{
 
 h1, h2{
     text-transform: uppercase;
-    font-family: 'Quantify';
     font-size: 30px;
+    color: white;
 }
 
-p, a{
+h1{
+    font-family: 'Quantify';
+}
+
+h2{
+    font-family: 'Glitch';
+}
+
+p, a, label{
     font-family: 'Montserrat';
     font-size: 16px;
     line-height: 30px;
+    color: white;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hack{
+    font-family: 'Glitch';
 }
 
 main{
