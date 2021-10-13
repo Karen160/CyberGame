@@ -28,7 +28,7 @@ function game() {
     }
     ctx.fillStyle="black";
     ctx.fillRect(0,0,canv.width,canv.height);
- 
+
     ctx.fillStyle="lime";
     for(var i=0;i<trail.length;i++) {
         ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
@@ -41,7 +41,7 @@ function game() {
     while(trail.length>tail) {
     trail.shift();
     }
- 
+
     if(ax==px && ay==py) {
         tail++;
         point++;
