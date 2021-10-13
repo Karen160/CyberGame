@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Glitch';
+    src: url('../asset/font/Doctor_Glitch.otf') format('opentype'),
+        url('../asset/font/Doctor_Glitch.ttf') format('truetype'),
+        url(../asset/font/Doctor_Glitch.woff) format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quantify';
+    src: url('../asset/font/Quantify.ttf') format('truetype'),
+        url('../asset/font/Quantify.otf') format('opentype'),
+        url('../asset/font/Quantify.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
