@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39795eb0503b9d547b12102b614ffb4c
+guid: dfd48a420ddb64c458924fec186f2125
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -8,17 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: b012d7fbd63bec440a3e567a3e5c3bf1, type: 2}
+    second: {fileID: 2100000, guid: 6be149009ac51b748a14e6e62dc387c2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 7b64110c522bde24f884b2bd5eea40b6, type: 2}
+    second: {fileID: 2100000, guid: 5854568d0c1d497498bed277e70d25db, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: a5a2a873a73510645a7dfb9d8a8bbef0, type: 2}
+    second: {fileID: 2100000, guid: 229b2c42d3b7d1148986d433c4bc4be4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal011_1K_Color
+    second: {fileID: 2800000, guid: a8fe475880e931a4ca5bd6c50ea613a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal011_1K_Metalness
+    second: {fileID: 2800000, guid: 360d6219fdf6bb94da0c122774f02260, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: uv_usb_02
+    second: {fileID: 2800000, guid: ffaee04cf7d567040b426957a5be57ec, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -103,7 +118,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
