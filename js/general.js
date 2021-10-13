@@ -1,13 +1,15 @@
-$('#btn').click(function () {
-    $('#e1').css('display', 'block');
-})
+//bouton snake
+$('#btnSnake').click(function () {
+    $('.e3').css('display', 'block');
+    $('.msgSnake').css('display', 'block');
+});
 
 //Test d'entrée dans le jeu
-const codeSecret = 830;
+const codeSecret = "830";
 function codeEntrer() {
     let code = document.getElementById("code").value;
     if (code === codeSecret) {
-        window.location.replace("https://jqntn.github.io/CyberGame/etape1.html");
+        window.location.replace("etape1.html");
     }else{
         document.getElementById("msgCodeError").innerHTML = error;  
     }
@@ -22,8 +24,9 @@ function validateForm() {
     let pseudo = document.getElementById("pseudo").value;
     let mdp = document.getElementById("mdp").value;
     if (pseudo === pseudoAdmin && mdp === mdpAdmin) {
-        window.location.replace("https://jqntn.github.io/CyberGame/panelAdmin.html");
+        window.location.replace("panelAdmin.html");
     }else{
         document.getElementById("msgError").innerHTML = error;  
     }
 }
+

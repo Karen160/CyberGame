@@ -1,0 +1,46 @@
+/* 1 */
+.main_etape1, .main_etape2{
+    text-align: center;
+}
+
+.main_etape1 p, .main_etape2 p{
+    margin: 20px 0;
+}
+
+.main_etape1 div{
+    margin-top: 150px;
+}
+
+.main_etape1 button{
+    margin: 10px;
+}
+
+@media screen and (max-width: 769px){
+    .main_etape1 div{
+        margin-top: 50px;
+    }
+}
+
+/* 2 snake */
+#gc{
+    position: absolute;
+    margin: auto;
+    transform: translateX(-40%);
+}
+
+.main_etape2{
+    padding-top: 0;
+}
+
+.main_etape2 button{
+    margin: 5px 0;
+}
+
+.e3{
+    display: none;
+}
+
+.msgSnake{
+    color: #00963F;
+    display: none;
+}

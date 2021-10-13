@@ -5,10 +5,12 @@
     <link rel="stylesheet" href="style/import.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="escape game">
-    <script src="https://kit.fontawesome.com/0be28608a8.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/LOGO-43.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
     <meta name="autor" content="Azoulay Karen">
     <title>CyberGame</title>
+
+    <!-- Lien pour utiliser les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -22,22 +24,27 @@
         </nav>
         <nav class="navbar_jeux">
             <a href="etape1.html">Etape 1</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+            <a href="snake.html">Etape 2</a>
+            <i class="e3 fas fa-long-arrow-alt-right"></i>
+            <a href="etape3.html" class="e3">Etape 3</a>
         </nav>
     </header>
-    <main class="main_etape1">
-        <h2>Bienvenue à cette 1ère étape</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore et quidem molestias? Dolore odit architecto sapiente, nihil expedita eligendi minima natus quos molestiae blanditiis accusantium temporibus magni consequuntur voluptates qui.</p>
+    <main class="main_etape2">
+        <h2>Etape 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repellendus dolores laudantium error, accusamus, delectus commodi est corporis optio voluptatem sequi nihil, libero corrupti possimus similique consequuntur? Et, itaque voluptatibus?</p>
         <div>
-            <p>Voici les règles : former le bon assemblement de 2 boutons pour trouver l'animal donnée et rentrer le dans la fin de l'url comme ceci '.../CyberGame/<em>nomanimal</em>.html'</p>
-            <br/>
-            <button>45°08'30.2"N</button>
-            <button>48°52'26.2"N</button>
-            <button>2°17'42.2"E</button>
-            <button>55° 45′ 09″N</button>
-            <button>116°43'44.3"W</button>
-            <button>37° 37′ 23″E</button>
+            <p><span id="pointSnake"></span> / 5 points</p>
+            <canvas id="gc" width="400" height="400"></canvas>
+            <button>5DCZ43</button>
+            <br />
+            <button>S0CZ73</button>
+            <br />
+            <button>50CZ73</button>
+            <br />
+            <button id="btnSnake">SDCZ43</button>
+            <p class="msgSnake">Bravo ! Vous avez accès dans le menu à l'étape 3</p>
         </div>
-        
     </main>
     <footer>
         <div class="legal">

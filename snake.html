@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/import.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="escape game">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <meta name="autor" content="Azoulay Karen">
+    <title>CyberGame</title>
+
+    <!-- Lien pour utiliser les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="asset/img/LOGO-43-blanc.png" alt="Logo 43" />
+            <div>
+                <a href="index.html" id="">Accueil</a>
+                <a href="jeux.html">Le jeux</a>
+                <a href="connexion.html"><button>Se connecter</button></a>
+            </div>
+        </nav>
+        <nav class="navbar_jeux">
+            <a href="etape1.html">Etape 1</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+            <a href="snake.html">Etape 2</a>
+            <i class="e3 fas fa-long-arrow-alt-right"></i>
+            <a href="etape3.html" class="e3">Etape 3</a>
+        </nav>
+    </header>
+    <main class="main_etape2">
+        <h2>Etape 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repellendus dolores laudantium error, accusamus, delectus commodi est corporis optio voluptatem sequi nihil, libero corrupti possimus similique consequuntur? Et, itaque voluptatibus?</p>
+        <div>
+            <p><span id="pointSnake"></span> / 5 points</p>
+            <canvas id="gc" width="400" height="400"></canvas>
+            <button>5DCZ43</button>
+            <br />
+            <button>S0CZ73</button>
+            <br />
+            <button>50CZ73</button>
+            <br />
+            <button id="btnSnake">SDCZ43</button>
+            <p class="msgSnake">Bravo ! Vous avez accès dans le menu à l'étape 3</p>
+        </div>
+    </main>
+    <footer>
+        <div class="legal">
+            <p><strong>Légal</strong></p>
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique relative aux cookies</a>
+            <a href="#">Politique de confidentialité</a>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <script src="js/snake.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/general.js"></script>
+</body>
+</html>

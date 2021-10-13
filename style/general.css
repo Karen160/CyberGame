@@ -12,8 +12,11 @@ a{
     color: black;
 }
 
-.navbar{
+header{
     padding: 30px 150px;
+}
+
+.navbar{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,6 +30,20 @@ a{
 .navbar div a{
     padding: 0 10px;
     text-transform: uppercase;
+    color: white;
+}
+
+.navbar_jeux{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_jeux a{
+    padding: 0 15px;
+}
+
+.navbar_jeux i{
     color: white;
 }
 
@@ -55,6 +72,7 @@ h1{
 
 h2{
     font-family: 'Glitch';
+    letter-spacing: 5px;
 }
 
 p, a, label{
@@ -76,6 +94,7 @@ p, a, label{
 
 main{
     min-height: 57vh;
+    padding: 50px;
 }
 
 footer{
@@ -109,8 +128,12 @@ footer .fab{
 }
 
 @media screen and (max-width: 769px){
-    .navbar, footer{
+    header, footer{
         padding: 20px 50px;
+    }
+
+    main{
+        padding: 20px;
     }
 }
 
