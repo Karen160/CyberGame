@@ -1,11 +1,112 @@
-#e1{
-    display: none;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#e2{
-    display: none;
+body{
+    background-color: #343A40;
 }
 
-#e3{
-    display: none;
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.navbar div a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #00963F;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    font-family: 'Quantify';
+    font-size: 30px;
+}
+
+p, a{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main{
+    min-height: 57vh;
+}
+
+footer{
+    color: white;
+    display: flex; 
+    padding: 30px 150px;
+    justify-content: space-between;
+    align-items: center;  
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer .legal{
+    display: grid;
+}
+
+footer .legal a{
+    color: white;
+    margin: 1px 0;
+}
+
+footer .fab{
+    color: white;
+    font-size: 25px;
+    margin: 25px 5px;
+}
+
+@media screen and (max-width: 769px){
+    .navbar, footer{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .navbar div{
+        margin: 20px auto 0;
+        display: grid;
+    }
+
+    .navbar div a{
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .navbar img{
+        margin: auto;
+    }
 }

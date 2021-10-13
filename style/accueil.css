@@ -1,0 +1,48 @@
+.main_accueil{
+    display: flex;
+    color: white;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.main_accueil p{
+    margin: 20px 0;
+}
+
+.main_accueil section{
+    margin: 0 100px;
+}
+
+.main_accueil img{
+    width: 50%;
+}
+
+@media screen and (max-width: 1040px){
+    .main_accueil{
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .main_accueil img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .main_accueil{
+        padding: 0 50px;
+    }
+    
+    .main_accueil section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .main_accueil section{
+        
+    }
+}
