@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/import.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="escape game">
-    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/LOGO-43.png">
     <meta name="autor" content="Azoulay Karen">
     <title>CyberGame</title>
 
@@ -13,13 +13,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <main>
+    <header>
+        <nav class="navbar">
+            <img src="asset/img/LOGO-43-blanc.png" alt="Logo 43" />
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="jeux.html">Le jeux</a>
+                <a href="connexion.html"><button>Se connecter</button></a>
+            </div>
+        </nav>
+    </header>
+    <main class="main_admin">
         <h2>Félicitation !</h2>
-        <p></p>
+        <p>Je me demande comment tu as réussi à résoudre toutes les énigmes que je t’ai préparé mais félicitations.<br />
+            Tu vas pouvoir récupérer tes données et éviter que je les mettent en ligne en prenant ma clé usb.</p>
+        <br />
+        <canvas id="unity-canvas" data-pixel-art="false"></canvas>
+        <br />
+        <p>Mais la prochaine fois, fais attention à ce que tu partages car tes données personnelles peuvent être volées par n’importe qui !</p>
     </main>
-    <footer>
-            
-    </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/general.js"></script>
 </body>

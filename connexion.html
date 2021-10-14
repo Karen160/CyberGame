@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/import.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="escape game">
-    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/LOGO-43.png">
     <meta name="autor" content="Azoulay Karen">
     <title>CyberGame</title>
 
@@ -14,18 +14,19 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html" id="">Accueil</a>
-            <a href="#" id="e1">Enigme 1</a>
-            <a href="#" id="e2">Enigme 2</a>
-            <a href="#" id="e3">Enigme 3</a>
-            <a href="connexion.html">Accès administrateur</a>
+        <nav class="navbar">
+            <img src="asset/img/LOGO-43-blanc.png" alt="Logo 43" />
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="jeux.html">Le jeux</a>
+                <a href="connexion.html"><button>Se connecter</button></a>
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="main_connexion">
         <h2>Connexion de l'administrateur</h2>
         <form>
-            <label for="pseudo">Pseudo</label>
+            <label for="pseudo">Identifiant</label>
             <input type="text" id="pseudo" required>
             <br><br>
             <label for="mdp">Mot de passe</label>
@@ -36,7 +37,17 @@
         </form>
     </main>
     <footer>
-        
+        <div class="legal">
+            <p><strong>Légal</strong></p>
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique relative aux cookies</a>
+            <a href="#">Politique de confidentialité</a>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
     </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/general.js"></script>

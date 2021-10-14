@@ -1,0 +1,33 @@
+.main_connexion h2{
+    text-align: center;
+    margin: 50px 0 80px;
+}
+
+.main_connexion form{
+    display: grid;
+    width: 50%;
+    margin: auto;
+}
+
+.main_connexion form input{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #008B3C;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 550px){
+    .main_connexion form{
+        width: 100%;
+    }
+}
+
+/* Admin */
+.main_admin h2{
+    text-align: center;
+    margin: 50px 0 80px;
+}
+
+.main_admin{
+    text-align: center;
+}
