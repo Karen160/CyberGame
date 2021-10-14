@@ -44,6 +44,13 @@
     transform: translateX(-40%);
 }
 
+.usb{
+    color: #008B3C;
+    font-weight: bold;
+    margin-bottom: 150px;
+    text-decoration: underline;
+}
+
 .main_etape2{
     padding-top: 0;
     height: 90vh;
