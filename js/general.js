@@ -9,7 +9,7 @@ const codeSecret = "830";
 function codeEntrer() {
     let code = document.getElementById("code").value;
     if (code === codeSecret) {
-        window.location.replace("etape1.html");
+        window.location.replace("video.html");
     }else{
         document.getElementById("msgCodeError").innerHTML = error;  
     }

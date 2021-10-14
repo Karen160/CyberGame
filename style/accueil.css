@@ -1,14 +1,32 @@
+.accueil{
+    background-color: #ffffff;
+    color: #3C3C3B;
+}
+
+.accueil .navbar a{
+    color: #3C3C3B;
+}
+
+.accueil button{
+    background-color: #F52929;
+}
+
 .main_accueil{
     display: flex;
-    color: white;
+    color: #3C3C3B;
     padding: 0 10%;
     justify-content: space-between;
     align-items: center;
     margin-top: 3vh;
 }
 
+.main_accueil h1{
+    color: #3C3C3B;
+}
+
 .main_accueil p{
     margin: 20px 0;
+    color: #3C3C3B;
 }
 
 .main_accueil section{

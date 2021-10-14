@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.main_etape1 video{
+    width: 80%;
+    height: 500px;
+}
+
 .main_etape1 p, .main_etape2 p{
     margin: 20px 0;
 }

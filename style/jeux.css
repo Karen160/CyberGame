@@ -1,5 +1,6 @@
 .main_jeux{
     text-align: center;
+    color: #3C3C3B;
 }
 
 .main_jeux section{
@@ -12,17 +13,19 @@
 
 .main_jeux h2{
     font-family: 'Quantify';
+    color: #3C3C3B;
 }
 
-.main_jeux p{
+.main_jeux p, .main_jeux label{
     margin-top: 20px;
+    color: #3C3C3B;
 }
 
 .main_jeux form input{
     border-radius: 20px;
     width: 100px;
     padding: 20px;
-    border: 2px solid #008B3C;
+    border: 2px solid #F52929;
     margin: 20px 0;
 }
 
