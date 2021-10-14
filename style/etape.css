@@ -1,3 +1,17 @@
+/* Timer */
+#timer {
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.navTimer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* 1 */
 .main_etape1, .main_etape2, .main_etape3{
     text-align: center;
@@ -41,7 +55,7 @@
 #gc{
     position: absolute;
     margin: auto;
-    transform: translateX(-40%);
+    transform: translateX(-50%);
 }
 
 .usb{

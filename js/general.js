@@ -4,6 +4,31 @@ $('#btnSnake').click(function () {
     $('.msgSnake').css('display', 'block');
 });
 
+/* timer */
+const timerElement = document.getElementById("timer");
+var temps = localStorage.getItem("timer");
+
+setInterval(() => {
+    let minutes = parseInt(temps / 60, 10);
+    let secondes = parseInt(temps % 60, 10);
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    secondes = secondes < 10 ? "0" + secondes : secondes;
+
+    timerElement.innerText = `${minutes}:${secondes}`;
+    temps = temps <= 0 ? 0 : temps - 1;
+    
+    localStorage.setItem('timer', temps);
+    
+    if(temps === 0){
+        alert('Vous avez perdu');
+        window.location.replace("jeux.html");
+    }
+}, 1000)
+
+
+
+
 //Test d'entrée dans le jeu
 const codeSecret = "830";
 function codeEntrer() {
