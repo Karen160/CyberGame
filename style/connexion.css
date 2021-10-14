@@ -31,3 +31,13 @@
 .main_admin{
     text-align: center;
 }
+
+.main_admin img{
+    width: 50%;
+}
+
+@media screen and (max-width: 550px){
+    .main_admin img{
+        width: 100%;
+    }
+}
