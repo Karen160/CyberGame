@@ -7,16 +7,22 @@
     margin: 20px 0;
 }
 
-.main_etape1 div{
+.main_etape1 section{
     margin-top: 150px;
 }
 
-.main_etape1 button{
+.main_etape1 div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_etape1 .button{
     margin: 10px;
 }
 
 @media screen and (max-width: 769px){
-    .main_etape1 div{
+    .main_etape1 section{
         margin-top: 50px;
     }
 }
@@ -30,10 +36,15 @@
 
 .main_etape2{
     padding-top: 0;
+    height: 90vh;
+}
+
+.main_etape2 div{
+    display: grid;
 }
 
 .main_etape2 button{
-    margin: 5px 0;
+    margin: 15px auto;
 }
 
 .e3{
@@ -41,6 +52,21 @@
 }
 
 .msgSnake{
-    color: #00963F;
+    color: #008B3C;
+    display: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px){
+    #gc, .snakeText{
+        display: none;
+    }
+
+    .main_etape2{
+        height: auto;
+    }
+}
+
+.msgError{
     display: none;
 }

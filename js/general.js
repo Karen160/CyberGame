@@ -16,8 +16,8 @@ function codeEntrer() {
 }
 
 //Formulaire connexion
-const pseudoAdmin = "karen";
-const mdpAdmin = "123";
+const pseudoAdmin = "daemon";
+const mdpAdmin = "873";
 var error = "Les informations sont erronés !";
 
 function validateForm() {
@@ -30,3 +30,14 @@ function validateForm() {
     }
 }
 
+//Bouton illimité
+const motAdmin = "illimité";
+function motEtape3() {
+    let mot = document.getElementById("mot").value;
+    if (mot === motAdmin) {
+        $('.e3').css('display', 'block');
+        $('.msgSnake').css('display', 'block');
+    }else{
+        $('.msgError').css('display', 'block');
+    }
+}

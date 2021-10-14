@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #343A40;
+    background-color: #121212;
 }
 
 a{
@@ -47,13 +47,14 @@ header{
     color: white;
 }
 
-button{
+button, .button{
     padding: 10px 20px;
-    background-color: #00963F;
+    background-color: #008B3C;
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
     color: white;
+    width: fit-content;
 }
 
 button:hover{
