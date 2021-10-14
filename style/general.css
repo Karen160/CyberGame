@@ -139,6 +139,10 @@ footer .fab{
 }
 
 @media screen and (max-width: 550px){
+    header{
+        padding: 20px;
+    }
+
     .navbar div{
         margin: 20px auto 0;
         display: grid;
@@ -151,5 +155,9 @@ footer .fab{
     
     .navbar img{
         margin: auto;
+    }
+
+    .navbar_jeux i{
+        display: none;
     }
 }
